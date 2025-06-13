@@ -42,6 +42,8 @@ The datasets used in this project were compiled from multiple geoscientific doma
   * 3 km Grid → 1 zone
 * Visualized predicted mineral zones on geospatial maps
 * Sample output chart:
+  ![Predicted Map](predicted_map.png)
+
   
 
 
