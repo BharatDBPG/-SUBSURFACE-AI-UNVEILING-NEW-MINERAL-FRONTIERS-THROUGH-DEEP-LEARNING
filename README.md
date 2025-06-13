@@ -55,3 +55,25 @@ The datasets used in this project were compiled from multiple geoscientific doma
 This project successfully demonstrates the power of deep learning, particularly LSTM, in **data-driven mineral prospectivity mapping**. The **4 km × 4 km grid resolution** offered the best balance between spatial accuracy and model performance.
 Three promising mineral zones were predicted and finalized for **further geological validation**, laying the foundation for advanced AI-assisted mineral exploration in India.
 
+Here’s a polished and professional version of your README section that clearly explains the contents and structure of your repository:
+
+---
+
+###  Repository Structure and Access
+
+This repository contains all the necessary components used in our mineral prospectivity mapping project. Below is a description of each folder and its contents:
+
+* **`dataset_file/`**: Contains the links to the original raw geoscientific datasets used in this study. These files can be downloaded for reference or further use.
+
+* **`preprocessed_data/`**: Includes the processed and cleaned dataset, ready for input into the machine learning models. This data was derived from raw sources through spatial integration and standardization.
+
+* **`preprocessed_data_code/`**: Contains the complete preprocessing scripts used to transform and prepare the raw geospatial data, including spatial overlays, labeling, handling missing values, and grid generation.
+
+* **`mineral_prediction_using_grid_approach/`**: Includes model training scripts using XGBoost and LSTM on the gridded dataset, along with code for predicting new mineralized regions.
+
+* **`spatial_distance_analysis_of_predicted_minerals/`**: Provides the scripts used for calculating spatial distances between newly predicted mineral zones at different grid resolutions (3 km, 4 km, and 5 km).
+
+* **`predicted_map/`**: Contains visual outputs (e.g., map images) of the newly predicted mineral-rich zones for easier interpretation and presentation.
+
+
+
